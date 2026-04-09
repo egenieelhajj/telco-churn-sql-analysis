@@ -54,13 +54,19 @@ Key Findings:
 
 Contract   | Total Customers | Churned  | Churn Rate
 
-Month-to-    3,875             1,655       42.71%
+Month-to-    
 
-month
+month        
+              
+              3,875             1,655       42.71%
 
-One year     1,472             166         11.28%
+One year     
+              
+              1,472             166         11.28%
 
-Two year     1,685             48          2.85%
+Two year     
+              
+              1,685             48          2.85%
 
 Customers on month-to-month contracts churn at 15x the rate of two-year contract customers. This is the single biggest retention lever available to the business.
 
@@ -70,51 +76,65 @@ Customer   |  Total   |    Churned  |   Churn
 
 Type                                    Rate
 
-Senior        1,142        476          41.68%
+Senior        
+              
+              1,142        476          41.68%
 
-Non-Senior    5,901        1,393        23.61%
+Non-Senior    
+              
+              5,901        1,393        23.61%
+
 
 Senior customers represent a high-risk, high-value segment that may benefit from dedicated retention programs or simplified service packages.
 
+
 3. Electronic check users drive the majority of churned revenue.
 
-Payment  |  Churned   |  % of All 
 
-Method      Customers    Churns
+Payment     |       Churned   |       % of All 
 
-Electronic  1,071        57.30%
+Method              Customers           Churns
+
+Electronic  
+
+check        
+                     1,071             57.30%
+
+Mailed     
 
 check
-
-Mailed      308          16.48%
-
-check
+                     308               16.48%
 
 Bank 
 
-transfer    258          13.80%
+transfer    
 
 (automatic)
+                     258               13.80%
 
 Credit 
 
-card        232          12.41%
+card        
 
 (automatic)
+                     232               12.41%
 
 Customers paying via electronic check churn at a significantly higher rate. Automatic payment methods (bank transfer, credit card) show much lower churn, suggesting friction in the payment process may be contributing to cancellations.
 
 4. Fiber optic customers pay the most but don't get better retention
 
-Internet    |  Avg Monthly  |  Total 
+Internet          |  Avg Monthly  |        Total 
 
-Service        Charges         Customers
+Service              Charges               Customers
 
-Fiber optic    $66.63          3,089
+Fiber optic    
+                     $66.63                3,089 
 
-DSL            $63.75          2,418
+DSL           
+                     $63.75                2,418
 
-No internet    $62.74          1,525
+No internet    
+                    $62.74                 1,525
 
 Despite paying the highest monthly charges, fiber optic customers churn at high rates, suggesting a potential gap between price expectations and perceived service value.
 
