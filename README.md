@@ -17,64 +17,103 @@ Customer churn is one of the most costly problems in the telecom industry. Acqui
 Database Design
 
 The data was normalized into a 3-table relational schema to reflect real-world business structure:
+
 Customers ──< Billing >── Services
+
 Table      |    Description
+
 Customers       Demographics:
+                
                 gender, age group,
+              
                 partner, dependents,
+                
                 churn status.
+
 Services        Subscriptions: phone,
+
                 internet, streaming, 
+
                 security, backup.
+
 Billing         Contract type, payment 
+ 
                 method, monthly and 
+
                 total charges.
 
 Key Findings:
 
 1. Contract type is the strongest predictor of churn.
+
 Contract   | Total Customers | Churned  | Churn Rate
+
 Month-to-    3,875             1,655       42.71%
+
 month
+
 One year     1,472             166         11.28%
+
 Two year     1,685             48          2.85%
 
 Customers on month-to-month contracts churn at 15x the rate of two-year contract customers. This is the single biggest retention lever available to the business.
 
 2. Senior citizens churn at nearly double the rate.
+
 Customer   |  Total   |    Churned  |   Churn 
+
 Type                                    Rate
+
 Senior        1,142        476          41.68%
+
 Non-Senior    5,901        1,393        23.61%
 
 Senior customers represent a high-risk, high-value segment that may benefit from dedicated retention programs or simplified service packages.
 
 3. Electronic check users drive the majority of churned revenue.
+
 Payment  |  Churned   |  % of All 
+
 Method      Customers    Churns
+
 Electronic  1,071        57.30%
+
 check
+
 Mailed      308          16.48%
+
 check
+
 Bank 
+
 transfer    258          13.80%
+
 (automatic)
+
 Credit 
+
 card        232          12.41%
+
 (automatic)
 
 Customers paying via electronic check churn at a significantly higher rate. Automatic payment methods (bank transfer, credit card) show much lower churn, suggesting friction in the payment process may be contributing to cancellations.
 
 4. Fiber optic customers pay the most but don't get better retention
+
 Internet    |  Avg Monthly  |  Total 
+
 Service        Charges         Customers
+
 Fiber optic    $66.63          3,089
+
 DSL            $63.75          2,418
+
 No internet    $62.74          1,525
 
 Despite paying the highest monthly charges, fiber optic customers churn at high rates, suggesting a potential gap between price expectations and perceived service value.
 
 5. High-value customers at risk
+
 10 customers were identified paying over $70/month who have already churned, representing significant lost revenue. Most were on month-to-month contracts or used fiber optic service.
 
 Business Recommendations
