@@ -98,11 +98,13 @@ Method              Customers           Churns
 Electronic  
 
 check        
+                   
                      1,071             57.30%
 
 Mailed     
 
 check
+                     
                      308               16.48%
 
 Bank 
@@ -110,6 +112,7 @@ Bank
 transfer    
 
 (automatic)
+                    
                      258               13.80%
 
 Credit 
@@ -117,6 +120,7 @@ Credit
 card        
 
 (automatic)
+                    
                      232               12.41%
 
 Customers paying via electronic check churn at a significantly higher rate. Automatic payment methods (bank transfer, credit card) show much lower churn, suggesting friction in the payment process may be contributing to cancellations.
@@ -128,12 +132,15 @@ Internet          |  Avg Monthly  |        Total
 Service              Charges               Customers
 
 Fiber optic    
+                     
                      $66.63                3,089 
 
 DSL           
+                    
                      $63.75                2,418
 
 No internet    
+                   
                     $62.74                 1,525
 
 Despite paying the highest monthly charges, fiber optic customers churn at high rates, suggesting a potential gap between price expectations and perceived service value.
