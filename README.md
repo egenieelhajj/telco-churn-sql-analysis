@@ -22,7 +22,9 @@ Customers ──< Billing >── Services
 
 Table      |    Description
 
-Customers       Demographics:
+Customers       
+               
+                Demographics:
                 
                 gender, age group,
               
@@ -30,13 +32,17 @@ Customers       Demographics:
                 
                 churn status.
 
-Services        Subscriptions: phone,
+Services        
+                
+                Subscriptions: phone,
 
                 internet, streaming, 
 
                 security, backup.
 
-Billing         Contract type, payment 
+Billing        
+                
+                Contract type, payment 
  
                 method, monthly and 
 
