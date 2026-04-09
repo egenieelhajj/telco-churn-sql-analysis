@@ -1,20 +1,19 @@
-# telco-churn-sql-analysis
-Telco Customer Churn Analysis
+# Telco Customer Churn Analysis
 SQL | Business Analysis | Customer Retention
 
-Project Overview
+## Project Overview
 This project analyzes customer churn behavior for a telecommunications company using SQL. The goal was to identify which customer segments are most likely to cancel their service, and provide data-driven recommendations to improve customer retention.
 
 Dataset: 7,043 telecom customers with demographic, service, and billing information.
 
-Business Problem
+## Business Problem
 
 Customer churn is one of the most costly problems in the telecom industry. Acquiring a new customer costs 5–7x more than retaining an existing one. This analysis answers the key business question:
 
 "Who is leaving, why are they leaving, and what can we do about it?"
 
 
-Database Design
+## Database Design
 
 The data was normalized into a 3-table relational schema to reflect real-world business structure:
 
@@ -48,14 +47,14 @@ Billing
 
                 total charges.
 
-Key Findings:
+## Key Findings:
 
 1. Contract type is the strongest predictor of churn.
 
 Contract   | Total Customers | Churned  | Churn Rate
 
-Month-to-    
-
+    
+Month-to-
 month        
               
               3,875             1,655       42.71%
@@ -72,9 +71,9 @@ Customers on month-to-month contracts churn at 15x the rate of two-year contract
 
 2. Senior citizens churn at nearly double the rate.
 
-Customer   |  Total   |    Churned  |   Churn 
+Customer Type   |  Total   |    Churned  |   Churn Rate 
 
-Type                                    Rate
+                                    
 
 Senior        
               
@@ -91,35 +90,23 @@ Senior customers represent a high-risk, high-value segment that may benefit from
 3. Electronic check users drive the majority of churned revenue.
 
 
-Payment     |       Churned   |       % of All 
+Payment Method    |       Churned Customers   |       % of All Churns
 
-Method              Customers           Churns
+                         
 
-Electronic  
-
-check        
+Electronic check        
                    
                      1,071             57.30%
 
-Mailed     
-
-check
+Mailed check
                      
                      308               16.48%
 
-Bank 
-
-transfer    
-
-(automatic)
+Bank transfer (automatic)
                     
                      258               13.80%
 
-Credit 
-
-card        
-
-(automatic)
+Credit card (automatic)
                     
                      232               12.41%
 
@@ -127,9 +114,9 @@ Customers paying via electronic check churn at a significantly higher rate. Auto
 
 4. Fiber optic customers pay the most but don't get better retention
 
-Internet          |  Avg Monthly  |        Total 
+Internet   Services       |  Avg Monthly Charges |        Total Customers 
 
-Service              Charges               Customers
+                             
 
 Fiber optic    
                      
@@ -149,20 +136,20 @@ Despite paying the highest monthly charges, fiber optic customers churn at high 
 
 10 customers were identified paying over $70/month who have already churned, representing significant lost revenue. Most were on month-to-month contracts or used fiber optic service.
 
-Business Recommendations
+## Business Recommendations
 
 Based on the analysis, three immediate actions could reduce churn significantly:
 
-1. Incentivize long-term contracts — Offer discounts or added benefits to move month-to-month customers to annual contracts. Even converting 20% of month-to-month customers to one-year contracts could reduce overall churn by ~6 percentage points.
+1. Incentivize long-term contracts — Offer discounts or added benefits to move month-to-month customers to annual contracts. Even converting 20% of month-to-month customers to one-year contracts could reduce overall churn by 6% percentage points.
 
 2. Target senior citizens with a retention program — Create a dedicated outreach program for customers 65+, including simplified billing, priority support, or loyalty discounts.
 
 3. Migrate electronic check users to automatic payments — Offer a small monthly discount for switching to automatic bank transfer or credit card. This reduces payment friction and is correlated with significantly lower churn.
 
 
-SQL Queries
+## SQL Queries
 
-File
+### File
 
 - Telco_Customer_Churn.sql
 - Churn_rate_by_contract.sql
@@ -171,12 +158,12 @@ File
 - averga_charges_by_internet_service.sql
 - high_value_customers_at_risk_of_churning.sql
 
-Tools Used
+## Tools Used
 
 MySQL — Database design, table creation, and querying
 
 
 
-About This Project
+## About This Project
 This project was completed as part of a data analysis portfolio to demonstrate skills in relational database design, SQL querying, and translating data findings into actionable business insights.
 Designed and executed by Egenie El Hajj Tovar — Data Analyst
